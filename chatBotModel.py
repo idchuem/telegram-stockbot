@@ -4,8 +4,6 @@ from telegram.ext import Updater, CommandHandler
 from telegram.ext import MessageHandler, Filters
 import logging
 
-tok = '1698241361:AAEaxCqCCAgvZh2PI2PxZlicjB2HQA7JqXs'
-
 class TelegramBot:
     def __init__(self, name, token=tok):
         self.core = telegram.Bot(token)
